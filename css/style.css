@@ -6,3 +6,84 @@
     font-family         = 'Montserrat', sans-serif
     box-shadow: 0 4px 44px 0 rgba(0, 0, 0, 0.07);
 */
+
+body{
+    margin: 0px;
+}
+header {
+    background-image: url("../img/background-image.png");
+    background-size: cover;
+    height: 220px;
+}
+
+.content-header {
+    color: #fff;
+    display: inline-block;
+    width: 50%;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 5%;
+    border: solid 3px #000;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    padding: 5% 20%;
+}
+
+a{
+    font-size: 22px;
+    color: #fff;
+    margin-right: 15px;
+}
+
+a.email {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-content {
+    background-color: #ff0000;
+    align-content: center;
+    justify-content: space-between;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    color: #fff;
+}
+
+.footer-contact {
+    align-self: flex-end;
+    bottom: 50px;
+}
+.skills {
+    box-shadow: 0 4px 44px 0 rgba(0, 0, 0, 0.07);
+    text-align: center;
+    margin: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.skills h2 {
+    font-size: 1.5em;
+}
+
+.content-ervaring {
+    display: flex;
+    margin: 50px;
+}
+
+section {
+    align-items: center;
+    padding: 2% 20%;
+}
+
+.content-ervaring img {
+    margin-right: 20px;
+}
